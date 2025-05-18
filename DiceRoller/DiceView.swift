@@ -23,6 +23,7 @@ struct DiceView: View {
                 }
             }
             .buttonStyle(.bordered)
+            .buttonBorderShape(.capsule)
         }
     }
 }
